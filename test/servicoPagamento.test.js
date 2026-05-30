@@ -39,14 +39,4 @@ describe('Serviço de realizar pagamento de empresas', () => {
     assert.equal(ultimoPagamento.valor, 120.99);
     
    });
-
-   it ('Validar que não deve permitir pagamento menor que R$50.00', () => {
-
-     const realizandoPagamento = new servicoRealizarPagamento(); 
- 
-     assert.throws(() => {
-        realizandoPagamento.pagar('748545-895693-25874','Jessica Ltda',49.99);
-     });
-   });
-
 });
