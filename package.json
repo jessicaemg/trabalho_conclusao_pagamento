@@ -1,0 +1,24 @@
+{
+  "name": "trabalho_conclusao_pagamento",
+  "version": "1.0.0",
+  "description": "Trabalho de conclusão da disciplina para realizar o pagamento.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicaemg/trabalho_conclusao_pagamento.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jessicaemg/trabalho_conclusao_pagamento/issues"
+  },
+  "homepage": "https://github.com/jessicaemg/trabalho_conclusao_pagamento#readme",
+  "dependencies": {
+    "mocha": "^11.7.6"
+  }
+}
